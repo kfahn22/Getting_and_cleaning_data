@@ -63,6 +63,6 @@ accelerometer_data <- cbind(df_subject, activity, accelerometer_data)
 ##Group by subject and activity and find averages for each variable
 tidy_data <- melt(accelerometer_data, id=c("subject", "activity")
                   )
-final <- dcast(tidy_data, subject+activity ~ variable, mean)
+final_tidy_data <- dcast(tidy_data, subject+activity ~ variable, mean)
 
 

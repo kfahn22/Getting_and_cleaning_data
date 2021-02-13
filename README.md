@@ -15,7 +15,7 @@ subject_train.txt (dimension 7352 by 1 column), which contain the number of the 
 X_train.txt (dimension 7352 observations by 561 columns), which contains the processed test data.  This is the explanatory data. 
 y_train.txt (dimension 7352 by 1 columns), which contains the numerical (1-6) acitivity labels.  This is the dependent variable.
 
-Codebook.Rmd contains all the steps I took to tranform the data info a tidy data set the provided the averages for each subject and activity.
+Codebook.Rmd contains all the steps I took to tranform the data into a tidy data set that contais the averages for each subject and activity.
 
 run_analysis.R contains the script
 
